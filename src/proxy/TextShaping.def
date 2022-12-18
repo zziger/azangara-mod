@@ -1,0 +1,22 @@
+LIBRARY TextShaping
+EXPORTS
+	BuildOtlCache=FakeBuildOtlCache @1
+	FreeOtlResources=FakeFreeOtlResources @2
+	GetOtlFeatureDefs=FakeGetOtlFeatureDefs @3
+	GetOtlGlyphAlternates=FakeGetOtlGlyphAlternates @4
+	GetOtlLangSysList=FakeGetOtlLangSysList @5
+	GetOtlScriptList=FakeGetOtlScriptList @6
+	GetOtlVersion=FakeGetOtlVersion @7
+	OtlAssertFailed=FakeOtlAssertFailed @8
+	RepositionOtlSingleGlyph=FakeRepositionOtlSingleGlyph @9
+	ShapingCreateFontCacheData=FakeShapingCreateFontCacheData @10
+	ShapingDrawGlyphs=FakeShapingDrawGlyphs @11
+	ShapingGetBreakingProperties=FakeShapingGetBreakingProperties @12
+	ShapingGetCombiningOptions=FakeShapingGetCombiningOptions @13
+	ShapingGetGlyphPositions=FakeShapingGetGlyphPositions @14
+	ShapingGetGlyphs=FakeShapingGetGlyphs @15
+	ShapingLoadScriptEngine=FakeShapingLoadScriptEngine @16
+	ShapingSetAssertFunction=FakeShapingSetAssertFunction @17
+	ShapingSetInvariantAssertFunction=FakeShapingSetInvariantAssertFunction @18
+	SubstituteOtlSingleGlyph=FakeSubstituteOtlSingleGlyph @19
+	ValidateLogClust=FakeValidateLogClust @20
