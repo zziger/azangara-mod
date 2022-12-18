@@ -10,7 +10,7 @@
 #include <memory>
 #include "memory/Memory.h"
 
-bool enabled = false;
+bool enabled = true;
 
 int (__thiscall *render_ui_orig)(void* this_);
 int __fastcall render_ui(void* this_, void*) {
