@@ -1,3 +1,5 @@
+[English version](README_EN.md)
+
 # Мод на игру "Azangara" (Axysoft)
 
 |[**Download / Скачать**](https://github.com/zziger/azangara-mod/releases/latest/download/TextShaping.dll)|
