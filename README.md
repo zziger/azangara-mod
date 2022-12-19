@@ -19,7 +19,7 @@
 Требования для сборки:
 - Visual Studio Build Tools, рекомендуемо v143
 - Windows SDK
-- CMake 3.8 или новее
+- CMake 3.15 или новее
 
 Для сборки нужно выполнить `build.bat` в корне проекта.<br>
 Итоговая DLL будет находиться по пути `BUILD\Release\TextShaping.dll`
