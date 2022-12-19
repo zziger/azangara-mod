@@ -21,8 +21,8 @@ Build requirements:
 - Windows SDK
 - CMake 3.15 or newer
 
-To build you can execute `build.bat` in the project root.<br>
-Result DLL will be located at `BUILD\Release\TextShaping.dll`
+To build project execute `build.bat` in the project root.<br>
+Result DLL will be placed at `BUILD\Release\TextShaping.dll`
 
 ## License
 
