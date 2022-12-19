@@ -12,7 +12,7 @@
 
 ## Features
 
-At the moment the only feature is ability to hide game UI pressing button `1`
+Press `1` to toggle game UI
 
 ## Build
     
