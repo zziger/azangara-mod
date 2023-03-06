@@ -21,7 +21,7 @@ int __fastcall render_ui(void* this_, void*) {
 
 LRESULT (__thiscall *handle_wnd_msg_orig)(void* this_, HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam);
 LRESULT __fastcall handle_wnd_msg(void* this_, void*, HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam) {
-    if (Msg == WM_KEYDOWN && wParam == 0x31) {
+    if (Msg == WM_KEYDOWN && wParam == 0xDC) {
         enabled = !enabled;
     }
     return handle_wnd_msg_orig(this_, hWnd, Msg, wParam, lParam);

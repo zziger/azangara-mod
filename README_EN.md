@@ -12,7 +12,7 @@
 
 ## Features
 
-Press `1` to toggle game UI
+Press `\` to toggle game UI
 
 ## Build
     
